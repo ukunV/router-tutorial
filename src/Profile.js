@@ -14,9 +14,7 @@ const data = {
 };
 
 const Profile = ({ match }) => {
-  {
-    /* match 객체 안에는 현재 컴포넌트가 어떤 경로 규칙에 의해 보이는지에 대한 정보가 들어있다. */
-  }
+  // match 객체 안에는 현재 컴포넌트가 어떤 경로 규칙에 의해 보이는지에 대한 정보가 들어있다.
   const { username } = match.params;
   const profile = data[username];
 

@@ -17,7 +17,7 @@ const Profiles = () => {
       <h3>사용자 목룍: </h3>
       <ul>
         <li>
-          <NavLink activeStyle={activeStyle} to="/profiles/ukunv">
+          <NavLink activeStyle={activeStyle} to="/profiles/ukunv" active>
             ukunV
           </NavLink>
         </li>
